@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: $primary-font-family;
+    font-size: $font-size;
+    background-color: $bg-color;
+    color: $text-color;
+    line-height: 2.6rem;
+}
+h1{
+    font-size: $primary-font-size;
+
+}
+h2 {
+    font-size: $secondary-font-size;
+}

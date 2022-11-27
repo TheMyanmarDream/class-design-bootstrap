@@ -1,0 +1,17 @@
+.brand-color{
+    color: $brand-color;
+}
+.bg-brand-color{
+    background-color: $brand-color;
+}
+.py-80{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.site-title{
+    text-transform: uppercase;
+    text-align: center;
+    color: $brand-color;
+    margin-bottom: 6rem;
+    font-weight: 100;
+}

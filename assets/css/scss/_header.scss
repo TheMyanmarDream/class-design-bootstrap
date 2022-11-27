@@ -1,0 +1,53 @@
+header{
+    .top{
+        height: 10rem;
+        background-color: #a1c8f3;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .banner{
+        height: 80rem;
+        background: url('../img/rohit-tandon-62046.jpg');
+        background-repeat: no-repeat;
+        @include flex(column,center,center,0);
+        h1{
+            text-transform: uppercase;
+        }
+        h1:first-child{
+            font-size: 8rem;
+            font-weight: 700;
+
+        }
+        h1:last-child{
+
+            font-size: 10rem;
+            font-weight: 100;
+        }
+    }
+
+}
+
+// 768 -992
+@media screen and (min-width:768px){
+
+    header{
+        .top{
+            font-size: 1.6rem;
+        }
+
+    }
+    
+    
+}
+
+//992x - infinity
+@media screen and (min-width:992px){
+    header{
+        .top{
+            font-size: 2rem;
+        }
+
+    }
+    
+    
+}
